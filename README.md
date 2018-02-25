@@ -1,5 +1,5 @@
 # LottoAnalysis
-I have always had a sneaking suspicion that there is an optimum number of lottory tickets to buy such that minor wins consistently cover the ticket prices. I analyzed historical data for the South African Lottery to find out. 
+I have always had a sneaking suspicion that there is an optimum number of lottery tickets to buy such that minor wins consistently cover the ticket prices. I analyzed historical data for the South African Lottery to find out. 
 
 This code pulls data from the 51 most recent lottery results from www.lottonumbers.com. Then, we choose random numbers for tickets and see how much we would have won. This code will run 30 hypothetical scenarios, wherein we buy 1, 2, 3, ..., up to 30 tickets for each draw (each with unique random numbers), and then see how many of those ticket would have won money.
 
