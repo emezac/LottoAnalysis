@@ -8,3 +8,17 @@ The results are plotted on a bar plot (see below) and indicate that, within a ce
 Thus, if one does play the lottery, one should see this money as part of one's entertainment budget - and thus not a loss so much as a price paid for an entertainment experience. If one wanted to maximize any chance of winning anything, then it is best to keep the number of purchased tickets small. Say, less than 5.
 
 ![Lotto results plot](https://raw.githubusercontent.com/MProx/LottoAnalysis/master/Figure_1.png)
+
+Some notes and caveats:
+1. Note that, because of the summing up of ticket sales, running the code once simulates 1 + 2 + 3 + ... + 29 + 30 =  465 ticket sales. 
+
+2. Hypothetically, a winning ticket could be "drawn" in this model. In all the times I have run it (many dozens now), I have never seen a jackpot win - which is encouraging, cnsidering the statatics. 
+
+3. The numbers are calculated based on the following assumptions: games were kept simple - only six balls drawn and six chosen by the player. No bonus balls or any of the fancy "+1" or "+2" games were considered. I may eventually build this into the model.
+
+4. All tickets cost the same (R5). Real-life winnings depend on how many other people also won that draw, but an estimate based on past history is available [here](https://www.lotteryresults.co.za/lotto/):
+* Two winning numbers: R20 (guaranteed payout)
+* Three winning numbers: R50 (guaranteed payout)
+* Four winning numbers: R242
+* Five winning numbers: R7,276
+* Six winning numbers: R5,994,241
