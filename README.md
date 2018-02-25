@@ -12,11 +12,11 @@ Thus, if one does play the lottery, one should see this money as part of one's e
 Some notes and caveats:
 1. Note that, because of the summing up of ticket sales, running the code once simulates 1 + 2 + 3 + ... + 29 + 30 =  465 ticket sales. 
 
-2. Hypothetically, a winning ticket could be "drawn" in this model. In all the times I have run it (many dozens now), I have never seen a jackpot win - which is encouraging, cnsidering the statatics. 
+2. Hypothetically, a winning ticket could be "drawn" in this model. In all the times I have run it (many dozens now), I have never seen a jackpot win - which is encouraging, considering the statatics. 
 
 3. The numbers are calculated based on the following assumptions: games were kept simple - only six balls drawn and six chosen by the player. No bonus balls or any of the fancy "+1" or "+2" games were considered. I may eventually build this into the model.
 
-4. All tickets cost the same (R5). Real-life winnings depend on how many other people also won that draw, but an estimate based on past history is available [here](https://www.lotteryresults.co.za/lotto/):
+4. All tickets cost the same (R5). Real-life winnings depend on how many other people also won that draw so far too much effort model here. Instead, I used an estimate of winnings based on past history is available [here](https://www.lotteryresults.co.za/lotto/):
 * Two winning numbers: R20 (guaranteed payout)
 * Three winning numbers: R50 (guaranteed payout)
 * Four winning numbers: R242
