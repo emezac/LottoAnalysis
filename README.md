@@ -7,7 +7,7 @@ The results are plotted on a bar plot (see below) and indicate that the results 
 
 Thus, if one does play the lottery, one should see this money as part of one's entertainment budget - and thus not a loss so much as a price paid for an entertainment experience. If one wanted to maximize any chance of winning anything at all, then it is best to keep the number of purchased tickets small. Say, less than 5.
 
-![Lotto results plot](https://raw.githubusercontent.com/MProx/LottoAnalysis/master/Figure_1.png)
+![Lotto results plot](https://github.com/MProx/LottoAnalysis/blob/master/Normal.png)
 
 Some notes and caveats:
 1. Note that, because of the summing up of ticket sales, running the code once simulates 1 + 2 + 3 + ... + 29 + 30 =  465 ticket sales in total. 
@@ -22,3 +22,7 @@ Some notes and caveats:
 * Four winning numbers: R242
 * Five winning numbers: R7,276
 * Six winning numbers: R5,994,241
+
+5. When running the simulation multiple times, every now and again you see one scenario that makes a relatively large profit, such as the one shown in the image below. This is because one of the simulations got a ticket with 5 matching numbers, which results in a payout of R7,276.00. However, it should be noted that this is only really seen when the simulation is run a few times in a row. As noted previously, running the code once simulates buying 465 tickets. So these results seem to happen with one in every 1000 to 1500 tickets. If we wanted to buy more tickets to have more chance of this happening more often, we would also increase the cost of tickets - so we would still lose out. 
+
+![Lotto results plot](https://github.com/MProx/LottoAnalysis/blob/master/random_win.png)
