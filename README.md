@@ -1,5 +1,5 @@
 # LottoAnalysis
-I have always had a sneaking suspicion that there is an optimum number of lottery tickets to buy such that minor wins consistently cover the ticket prices and maybe allow a little profit over a period of time. I analyzed historical data for the South African Lottery to find out. 
+I have always had a sneaking suspicion that there is an optimum number of lottery tickets to buy such that minor wins consistently cover the ticket prices and maybe allow a little profit over a period of time. In other words, instead of hoping to win the big jackpot, one could buy number of tickets at a time hoping that the wins of R100 here or R200 there could pay for all the non-winning tickets, and maybe allow some profit. I analyzed historical data for the South African Lottery to find out. 
 
 The python script in this repo pulls data from the 51 most recent lottery results from www.lottonumbers.com. Then, it chooses random numbers for tickets and sees how much we would have won. This code will run 30 hypothetical scenarios, wherein we buy 1, 2, 3, ..., up to 30 tickets for each draw (each with unique random numbers), and then see how many of those ticket would have won money.
 
