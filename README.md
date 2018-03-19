@@ -16,7 +16,7 @@ Some notes and caveats:
 
 3. The numbers are calculated based on the following assumptions: games were kept simple - only six balls drawn and six chosen by the player. No bonus balls or any of the fancy "+1" or "+2" games were considered. I may eventually build this into the model.
 
-4. All tickets in the simulation cost the same (R5). Real-life winnings depend on how many other people also won that draw, so instead of attempting to build this historical data into the model, I used an estimate of winnings based on past history is available [here](https://www.lotteryresults.co.za/lotto/):
+4. All tickets in the simulation cost the same (R5). Real-life winnings depend on how many other people also won that draw, so instead of attempting to build this historical data into the model, I used an estimate of winnings based on past payouts ([available here](https://www.lotteryresults.co.za/lotto/)):
 * Two winning numbers: R20 (guaranteed payout)
 * Three winning numbers: R50 (guaranteed payout)
 * Four winning numbers: R242
